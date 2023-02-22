@@ -1,0 +1,19 @@
+{
+    "routes":[
+        {
+            "src":"/api/ipfsFiles",
+            "methods":[
+                "POST"
+            ],
+            "dest":"/api/ipfsFiles.js"
+        },
+        {
+            "src":"/api/ipfsMetadata",
+            "methods":[
+                "POST"
+            ],
+            "dest":"/api/ipfsMetadata.js"
+        }
+    ]
+}
+
